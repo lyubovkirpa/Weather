@@ -1,14 +1,7 @@
-import React from 'react'
-import { useWeather } from '../../context/WeatherContext'
+import { useWeather } from "../../context/WeatherContext";
 
 export default function WeatherCard() {
+  const {} = useWeather();
 
-   const {} = useWeather()
-
-  return (
-    <div>
-        
-
-    </div>
-  )
+  return <div></div>;
 }

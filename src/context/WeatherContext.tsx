@@ -120,9 +120,9 @@ export default function WeatherProvider({children}:IAuthContexProps) {
 }
 
  export const useWeather = ()=> {
- const contex= useContext(WeatherContext);
- if(!contex){
+ const context= useContext(WeatherContext);
+ if(!context){
     throw new Error("no such context");
  }
- return contex;
+ return context;
 } 

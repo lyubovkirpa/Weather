@@ -3,7 +3,7 @@ import { useWeather } from "../../context/WeatherContext";
 
 export default function SearchBar() {
 
-    const { weatherData, setWeatherData, addToHistory } = useWeather();
+    const { setWeatherData, addToHistory } = useWeather();
 
     const APP_ID = "b7047a24973b9d8fb1a91e6d55ea4f15";
   
